@@ -1,0 +1,42 @@
+*,
+::after,
+::before {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.buttons {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 9px 22px;
+  border-radius: 0.4rem;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+.start_btn {
+  background-color: darkgreen;
+  border: none;
+  color: #fff;
+}
+.stop_btn {
+  background-color: darkred;
+  border: none;
+  color: #fff;
+}
+.reset_btn {
+  background-color: royalblue;
+  border: none;
+  color: #fff;
+}
+.countDown {
+  font-size: 6rem;
+}
